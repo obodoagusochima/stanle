@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="sochima">
+    <meta name="description"  content="Contact information for the Littel Taco Shop">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="js/main.js" defer></script>
+    <title>About LTS</title>
+    
+    <body>
+        <header  class="header">
+            <h1  class="header__h1">Littel Taco Shop</h1>
+            <nav  class="header__nav">
+                <ul  class="header__ul">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/#menu">Menu</a>
+                    </li>
+                    <li>
+                        <a href="hours.html">Hours</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <figure>
+                <img src="img/fresh-beef-taco-wooden-table-with-sauce-generative-ai.jpg" alt="Littel Taco Shop  Tacos" title="Tacos ready to eat" width="1000" height="649">
+                <figcaption class="offscreen">
+                    Littel Taco Shop Tacos
+                </figcaption>
+           </figure> 
+        </section>
+        <main class="main">
+            <article class="main__article">
+                <h2>Our location</h2>
+                <address>
+                    555 Taco temptation lane, suit T<br>
+                    kansas city, MO 55555-5555
+                    <br><br>
+                    phone: <a href="tel:+2349037696174">09037696174</a>
+                </address>
+               </article>
+               <hr>
+           <article class="main__article contact">
+            <h2 class="contact__h2">Our contact form</h2>
+
+            <form action="https://httpbin.org/get" method="get" class="contact__form">
+                <fieldset class="contact__fieldset">
+                    <legend class="offscreen">send us a message</legend>
+                    <p class="contact__p">
+                        <label class="contact__label" for="name">Name:</label>
+                        <input class="contact__input" type="text" name="name" id="name" placeholder="your name" required>
+                    </p>
+                    <p class="contact__p">
+                        <label class="contact__label" for="email">Email:</label>
+                        <input class="contact__input" type="email" name="email id="name" placeholder="your email" required>
+                    </p>
+                    <p class="contact__p">
+                        <label class="contact__label" for="message">Your Message:</label>
+                        <br>
+                        <textarea class="contact__textarea" name="name" id="message" cols="30" rows="10" placeholder="type your message"></textarea>
+                    </p>
+                </fieldset>
+                <button class="contact__button" type="submit">Send</button>
+                <button class="contact__button" type="reset">Reset</button>
+            </form>
+           </article>
+        </main>
+        <footer class="footer">
+            <p>
+                <span class="nowrap">copyright &copy; <time id="year"></time></span>
+                <span class="nowrap">Littel Taco Shop</span>
+            </p>
+        </footer>
+    </body>
+</html>
